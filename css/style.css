@@ -1,0 +1,155 @@
+*{ margin:0; padding:0; }
+a{ color:black; text-decoration:none; }
+ul{ list-style:none; }
+img{border:none;}
+.h10{ height: 10px; }
+.h20{ height: 20px; }
+.h50{ height: 50px; }
+.h100{ height: 100px; }
+.fl{ float:left; }
+.fr{ float:right; }
+
+.header{ width: 100%; height: 118px; background: #FEFDF9; }
+.inner{ width:1000px; margin:0 auto; }
+.header .nav ul { float:left; }
+.header .nav ul li{ float:left; width: 83px; height: 105px; text-align:center; font:16px/105px "微软雅黑"; margin-right:20px; }
+.header .nav ul li.last{ margin:0; }
+.header .nav ul li a{ display:block; width: 83px; height: 105px; }
+.header .nav ul li.cur a{ background:url(../images/nav_hover.png) no-repeat; }
+.header .nav ul li a:link,.header .nav ul li a:visited{ }
+.header .nav ul li a:hover{ background:url(../images/nav_hover.png) no-repeat; }
+.header .nav .language{ float:right; padding:45px 0 0 15px; }
+.header .nav .language span{ float:left; width: 24px; height: 15px; text-indent:-9999em; background:url(../images/flag.png) no-repeat; }
+.header .nav .language span.yingwen{ background-position:-32px 0; margin-left:8px; }
+.header .nav .language span a{ display:block; width: 24px; height: 15px; }
+
+/**********************************    index   ***********************************/
+.banner{ width:100%; height:701px; background:url(../images/banner.png) no-repeat center top; }
+
+.content{ width:100%; height:80px; background:#E4E4E4; }
+.content ul{ width:1000px; margin:0 auto; }
+.content ul li{ float:left; height: 80px; text-indent:-9999em; background: url(../images/three.png) no-repeat; }
+.content ul li.no1 { display:block; width: 318px; }
+.content ul li.no2 { display:block; width: 334px; background-position:-318px 0; }
+.content ul li.no3 { display:block; width: 348px; background-position:-652px 0; }
+.content ul li.no1 a{ display:block; width: 318px; height: 80px; }
+.content ul li.no2 a{ display:block; width: 334px; height: 80px; }
+.content ul li.no3 a{ display:block; width: 348px; height: 80px; }
+
+/**********************************    aboutus   ***********************************/
+.main{ width: 100%; height:627px; background:url(../images/background.png) no-repeat center top; }
+.main .main_l{ width:466px; padding-left:20px;}
+.main .main_l .title{ border-bottom:1px solid rgb(160,49,18); overflow:hidden; padding-bottom:5px; }
+.main .main_l .title span{ font-size:24px; padding-left:10px; color:#C3C3C1; }
+.main .main_l .title h2{ color:#2E1812; font-weight:bold; }
+.main .main_l .about_font p{ text-indent:2em; margin-bottom:20px; font:14px/175% "微软雅黑"; }
+.main .main_l .about_font span{ font-size:16px; font-weight:bold; }
+
+/**********************************    product   ***********************************/
+.main_product{ width:100%; height:630px; background:url(../images/product_bg.png) no-repeat center top; }
+.main_product .main_l{position: relative;}
+.main_product .main_l .product_banner{ position: relative; width: 819px; height: 541px; overflow:hidden; }
+
+.main_product .main_l .product_banner ul{ width: 9898px; position: absolute; top: 0; left: 0; }
+.main_product .main_l .product_banner ul li{ float:left; width:819px;}
+.main_product .main_l .product_banner ul li.first{ display:block; }
+
+.main_product .main_l .product_banner ul li .pic_l{
+	padding-top:24px;
+	padding-left:24px;
+	width: 370px;
+}
+.main_product .main_l .product_banner ul li .pic_r{
+	width: 425px;
+}
+.main_product .main_l .product_banner ul li .pic_r h1{
+	display:block;
+	width: 425px;
+	height:57px ;
+	background:url(../images/product_title.png) no-repeat;
+	padding-left:10px;
+	font:24px/57px "微软雅黑";
+	margin-bottom:20px;
+}
+.main_product .main_l .product_banner ul li .pic_r h2{
+	display:block;
+	width: 202px;
+    font:40px/175% "黑体";
+    font-weight:bold;
+}
+.main_product .main_l .product_banner ul li .pic_r h3{
+	display: block;
+	width: 185px;
+	 font:20px/175% "黑体";
+	background: #B8987A;
+}
+
+.main_product .main_l .product_banner ul li .pic_r p{
+	width: 310px;
+	font:12px/30px "微软雅黑";
+}
+.main_product .main_l .product_banner ul li .pic_r span{
+	display:block;
+	padding:30px 0 20px 0;
+}
+.main_product .main_l .product_banner ul li .pic_r p span{
+	padding:0;
+	line-height: 20px;
+	padding-left:10px;
+	margin-right:40px;
+}
+.main_product .main_l .product_banner ul li .pic_r p.lala{
+	display:block;
+	width: 100%;
+	height: 20px;
+}
+.main_product .main_l .product_banner ul li .pic_r p .one{
+	float:left;
+	width: 138px;
+	height:20px;
+	background: url(../images/product_title3.png) no-repeat;
+}
+.main_product .main_l .product_banner ul li .pic_r p .two{
+	float:left;
+	width: 96px;
+	height:20px;
+	color:white;
+	background: url(../images/product_title3.png) no-repeat 0 -25px;
+}
+.main_product .main_l .product_banner ul li .pic_r p .two a{
+	display:block;
+	width: 96px;
+	height:20px;
+	color:white;
+}
+.main_product .main_l .product_banner ul li .pic_r p .one a{
+	display:block;
+	width: 138px;
+	height:20px;
+}
+.main_product .main_l .product_banner .next_banner{ position: absolute; right:0; top:225px; width: 40px; height: 90px; background:url(../images/product_icons.png) no-repeat -57px -11px; text-indent:-9999em; cursor:pointer;z-index:100; }
+.main_product .main_l .product_banner .prev_banner{ position: absolute; left:0; top:225px; width: 40px; height: 90px; background:url(../images/product_icons.png) no-repeat -5px -11px; text-indent:-9999em; cursor:pointer; z-index:100;}
+.main_product .main_r{ padding-top:100px; } 
+.main_product .main_r ul li{ width: 120px; height: 30px; background:url(../images/product_icons.png) no-repeat -149px -82px; margin-bottom:15px; cursor:pointer; padding-left:10px; font:14px/30px "微软雅黑"; color:white; }
+.main_product .main_r ul li.cur{ background-position:-149px -11px; ; }
+
+/**********************************    news   ***********************************/
+.main .main_l .newslist { width: 466px}
+.main .main_l .newslist ul li{ width: 466px; height:74px; padding:25px 0; border-bottom:1px dashed gray; }
+.main .main_l .newslist ul li img{ padding-right:15px; }
+.main .main_l .newslist ul li p{ font:12px/25px "微软雅黑"; }
+
+/**********************************    people   ***********************************/
+.main .main_l .biaoge table{ border-spacing:0; text-align:center; border-collapse: collapse; }
+.main .main_l .biaoge table tr th{ width:100px; height:35px; background: #D4AE59; }
+.main .main_l .biaoge table tr th.first{ width: 168px; }
+.main .main_l .biaoge table tr td{ height:60px; border:1px solid gray; }
+.main .main_l .biaoge p{ font:12px/20px "微软雅黑"; }
+.main .main_l .biaoge p.da_p{ font:14px/50px "微软雅黑"; }
+
+/**********************************    contact us   ***********************************/
+.main .main_l .contact_map img{ width:100%; }
+.main .main_l .contact_map p{ font:12px/24px "微软雅黑"; }
+
+/**********************************    footer   ***********************************/
+.footer{ width: 1000px; height: 80px; margin:0 auto; font:12px/175% "微软雅黑"; padding-top:20px; }
